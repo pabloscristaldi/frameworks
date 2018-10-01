@@ -1,0 +1,45 @@
+.contenedor{
+
+}
+.titulo{
+	font-family: italic;
+	font-size: 2rem;
+}
+.logo{
+	width: 10%;
+}
+li{
+margin-right: 30px;
+
+}
+
+.nav{
+	margin: 10px;
+}
+.mr3{
+	margin-right:8px; 
+	width: 30%;
+	
+}
+.chat{
+	width: 50px;
+	border-radius: 5px;
+}
+.buscar{
+	width: 20px;
+}
+
+@media (max-width: 700px){
+
+}
+.mr3{
+	margin: auto;
+	width: 60%;
+}
+.colu{
+	text-align: center;
+	flex-direction: column;
+	margin: 5px;
+}
+}
+@media(max-width: )

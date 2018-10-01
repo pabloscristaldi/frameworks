@@ -1,0 +1,95 @@
+ .fondo{
+ 	background: url("../img_materialize/fondo.jpg");
+ 	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+	background-position: expanded; 
+	background-size:cover;	
+ }
+ .botonera{
+ 	margin-top: 5px;
+ }
+ .barra{
+ 	margin-top: 0px;
+	height: 7rem;
+}
+.logo{
+	width: 30%;
+} 
+.slog{
+	font-family:fantasy;
+}
+.redes{
+	height: 4rem;
+}
+.lugar{
+	min-height: 310px;
+	-webkit-box-shadow: 5px 5px 10px black;
+	-moz-box-shadow:5px 5px 10px black;
+	box-shadow: 5px 5px 10px black;
+	
+}
+.lugar2{
+	min-height:650px;
+	-webkit-box-shadow: 5px 5px 10px black;
+	-moz-box-shadow:5px 5px 10px black;
+	box-shadow: 5px 5px 10px black;
+}
+.lugar3{
+	box-shadow: 
+	-webkit-box-shadow: 5px 5px 10px black;
+	-moz-box-shadow:5px 5px 10px black;
+	box-shadow: 5px 5px 10px black;
+
+	min-height:200px;
+}
+.conter{
+	margin: 10px;
+
+}
+
+.pabl{
+	height: 10rem;
+	width: 10rem;
+}
+.boton{
+	margin-top:10%;
+}
+
+@media(max-width: 600px){
+.ult li{
+ display: inline;
+}
+.botonera{
+	text-align: center;
+	align-items: center;
+}
+#autor{
+	position: center;
+
+
+}
+.slog{
+	font-size: 2rem;
+}
+#redes{
+	height: 80px;
+	margin-bottom: 20px;
+}
+}
+
+@media(max-width: 900px){
+.logo{
+	width: 100%;
+}
+#titulo{
+	font-size: 1.7rem;
+}
+.menu li{
+	display: inline;
+}
+}
+@media(max-width: 1400px){
+	.menu li{
+		display: inline;
+	}
+}
